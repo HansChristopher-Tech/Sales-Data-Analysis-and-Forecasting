@@ -5,7 +5,7 @@ import numpy as np
 
 # Import data
 df = pd.read_csv(
-    r"C:\Users\Hans Christopher\Documents\DATA ANALYST TOOLS\PYTHON\Sales\Original Data\9. Sales-Data-Analysis.csv"
+    r"C:\Users\Hans Christopher\Documents\DATA ANALYST TOOLS\PYTHON\Sales\dataset\9. Sales-Data-Analysis.csv"
 )
 
 # Convert Date column to datetime
@@ -75,7 +75,6 @@ def trends():
     plt.xlabel("Date")
     plt.ylabel("Revenue")
     plt.show()
-
 
 # ------------------------------
 # 5. Summary statistics
