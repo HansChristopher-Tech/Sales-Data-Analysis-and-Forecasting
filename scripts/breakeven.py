@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Import Data
-df = pd.read_csv(r"C:\Users\Hans Christopher\Documents\DATA ANALYST TOOLS\PYTHON\Sales\Original Data\9. Sales-Data-Analysis.csv")
+df = pd.read_csv(r"C:\Users\Hans Christopher\Documents\DATA ANALYST TOOLS\PYTHON\Sales\dataset\9. Sales-Data-Analysis.csv")
 
 # Convert Date column to datetime
 df["Date"] = pd.to_datetime(df["Date"], format="%d-%m-%Y")
